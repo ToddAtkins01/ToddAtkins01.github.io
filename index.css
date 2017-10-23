@@ -45,7 +45,7 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: auto 200px;
   padding: 1;
-  border: solid 2px blue;
+  /*border: solid 2px blue;*/
 
   
 }
@@ -103,7 +103,7 @@ h5 {
   font-size: 50px;
   width: 100%;
   text-align: center;
-  border: solid 1px orange;
+  /*border: solid 1px orange;*/
 }
 
 .projects article {
