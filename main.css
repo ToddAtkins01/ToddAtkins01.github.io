@@ -1,5 +1,5 @@
 html {
-	background-image: url("Images/background3.jpg") no-repeat center center fixed;
+	background-image: url("images/background3.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -7,7 +7,7 @@ html {
 }
 
 header {
-	background-image: url("Images/header2.jpg");
+	background-image: url("images/header2.jpg");
 	width: 100%;
 	height: auto;
 	display: grid;
