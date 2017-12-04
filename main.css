@@ -1,9 +1,19 @@
-html {
-	background: url("images/background3.jpg") no-repeat center center fixed;
+/*html {
+	background: url(images/background3.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}*/
+
+html{
+    background: url(images/background3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/homeBg.jpg',     sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/homeBg', sizingMethod='scale');
 }
 
 header {
