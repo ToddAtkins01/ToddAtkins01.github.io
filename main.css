@@ -1,25 +1,19 @@
 body {
-
   height: 100%;
     margin:0px;
     background: url(images/background3.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-	/*background: url(images/background3.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/
 }
 
 header {
-	background: url(images/header2.jpg);
+	background: url(images/header3.jpg)center;
 	width: 100%;
 	height: auto;
-	display: grid;
+ 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
+ }
 
 nav {
 	grid-column: 8;
@@ -64,7 +58,7 @@ h1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
-	grid-gap: 200px;
+	grid-gap: 150px;
 	padding: 1;
 }
 
