@@ -1,106 +1,155 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Todd Atkins Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-</head> 
-<a name="top"></a>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Todd Atkins Portfolio</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<a class="top"></a>
 
 <body>
-	<!-- Header -->
 	<header>
-    	<h1>Todd Atkins Portfolio</h1>
-    	<img id="my-pic" src="./todd-atkins-headshot.jpg" />
-    
-	<!-- Navigation of the site -->
-	<nav class="menu">
-		
+
+		<h1>Todd Atkins Portfolio</h1>
+
+		<div class="headShot">
+			<img id="my-pic" src="./images/todd-atkins-headshot.jpg"
+				alt="Todd Atkins Headshot" />
+		</div>
+
+		<nav class="menu">
 			<ul>
-				<li><a href="#About Me">About Me</a></li>
-				<li><a href="#Projects">Projects</a></li>
-				<li><a href="#Contact">Contact</a></li>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
-	</nav>
-</header>
-	<!-- Main container -->
-<div id="container">
-  
-  <!-- Bio -->
-  <section class="bio">
-  	<a name="About Me"></a>
-      <h2>About Me</h2>
-      
-      <p>I have always been very interested in technology, the internet, and aplications.</p>
+		</nav>
 
-      <p>I am currently enrolled at We Can Code It studying Java, Spring, Bootstrap, HTML5, CSS, Javascript, jQuery, MVC, Source Control/Git, and Structured Query Language (SQL)</p>
+	</header>
 
-      <p>I am a versatile, broadly experienced management and sales professional, offering talents in strategy development, team motivation, team member development and sales growth in diverse industries. Exceptional communicator, developing rapport and building positive relationships with decision-makers, leveraging knowledge to relate effectively to individual accounts' issues. Excellent team player with aggressive sales approach and talent for training and coaching team members to become focused, high-performance teams. Demonstrated commitment to high-quality customer service.</p>
-      
-<p><a href='#top'>Back to Top</a></p>
-      
-  </section>
+	<div id="container">
+
+		<div class="about-me">
+
+			<h2>
+				<a id="about-me">About Me</a>
+			</h2>
+
+			<p>I have always been very interested in technology, the
+				internet, and applications.</p>
+
+			<p>I am a versatile, broadly experienced management and sales
+				professional, offering talents in strategy development, team
+				motivation, team member development and sales growth in diverse
+				industries. Exceptional communicator, developing rapport and
+				building positive relationships with decision-makers, leveraging
+				knowledge to relate effectively to individual accounts' issues.
+				Excellent team player with aggressive sales approach and talent for
+				training and coaching team members to become focused,
+				high-performance teams. Demonstrated commitment to high-quality
+				customer service.</p>
+
+			<p>I am currently enrolled at We Can Code It studying Java,
+				Spring, Bootstrap, HTML5, CSS, Javascript, jQuery, MVC, Source
+				Control/Git, and Structured Query Language (SQL)</p>
+
+			<h5>
+				<a id="back-to-top" href='#top'>Back to Top</a>
+			</h5>
+
+		</div>
+
+		<div class="education">
+
+			<h2>
+				<a id="education">Education</a>
+			</h2>
+			<div id="otterbein">
+				<h3>Otterbein University</h3>
+
+				<p>
+					<a href="http://www.otterbein.edu/" target="_blank"><img
+						id="otterbein-logo" src="./images/Otterbein.jpg"
+						alt="Otterbein University Logo" /></a>
+				</p>
+
+				<p>
+					BA in Sports Management <br> Graduated in 2006
+				</p>
+			</div>
+
+			<div id="wcci">
+				<h3>We Can Code It</h3>
+				<a href="https://wecancodeit.org/" target="_blank"><img
+					id="education-logo" src="./images/WCCI.png"
+					alt="We Can Code It Logo" /></a>
+
+				<p>
+					Software Development Certificate <br> Graduated in 2018
+				</p>
+
+			</div>
+
+			<h5>
+				<a id="back-to-top" href='#top'>Back to Top</a>
+			</h5>
+		</div>
+
+		<div class="projects">
+			<h2>
+				<a id="projects">Most Recent Projects</a>
+			</h2>
+
+			<div id="repos"></div>
+		</div>
+		<h5>
+			<a id="back-to-top" href='#top'>Back to Top</a>
+		</h5>
+
+	</div>
+
+	</div>
+
+	<footer>
+
+		<h2>
+			<a id="contact">Contact Info</a>
+		</h2>
+
+		<div class="contact-info">
+			<a href="https://github.com/ToddAtkins01" target="_blank"><img
+				src="./images/github.png?raw=true" alt="GitHub Profile"
+				style="width: 3em; height: 3em"; ></a> <a
+				href="https://linkedin.com/in/toddsatkins" target="_blank"><img
+				src="./images/linkedin.png?raw=true" alt="LinkedIn Profile"
+				style="width: 3em; height: 3em";></a> <a
+				href="mailto:toddatkins01@gmail.com?Subject=Hello%20again"
+				target="_top"><img src="./images/email.png?raw=true"
+				style="width: 3.25em; height: 3.25em;" /></a> <a
+				href="tel:614-300-0025"><img src="./images/phone.png?raw=true"
+				style="width: 3em; height: 3em;"></a>
+		</div>
+
+		<h5>
+			<a id="back-to-top" href='#top'>Back to Top</a>
+		</h5>
+
+		<p>Copyright © Todd Atkins 2017</p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		crossorigin="anonymous">
+		
+	</script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
 
 
-
-  <!-- Contact -->
-  <section class="contact">
-  	<a name="Contact"></a>
-      <h3>Contact Info<h3/>
-
-      <p>
-      <a href="https://github.com/ToddAtkins01"><img src="./github2.png?raw=true" alt="GitHub Profile" style="width:3em; height:3em"; ></a>
-
-      <a href= "https://linkedin.com/in/toddsatkins"><img src="./linkedin2.png?raw=true" alt="LinkedIn Profile" style="width:3em; height:3em";></a>
-
-      <a href="mailto:toddatkins01@gmail.com?Subject=Hello%20again" target="_top"><img  src="./email4.png?raw=true" style="width: 3.25em; height: 3.25em;"/></a>
-
-      <a href="tel:614-300-0025"><img src="./phone2.png?raw=true" style="width: 3em; height: 3em;"></a></p>
-	<p>
-      <a href='#top'>Back to Top</a>
- 	</p>
-
-  </section>
-
-  <section class="projects">
-  	<a name="Projects"></a> 
-
-    <h4>Projects</h4>
-
-    <article id="virtual-pets-amok">
-      <h5>Virtual Pets Amok</h5>
-      <p>This project was a game where you are in charge of a virtual pet shelter. You are able to admit and adopt out pets both organic and robotic. You have the ability to feed and hydrate as well as other tasks requitred to take care of a virtual pet.</p>
-
-      <p>This project is a far more advanced version of Virtual Pet. It includes Test Driven Development, inherantance, abstraction, interfaces as well as object orientated.</p>
-
-    </article>
-
-	<article id="virtual-pet">
-      <h5>Virtual Pet</h5>
-      <p>This project was a where you get to take care of a virtual pet and work to keep it alive.</p>
-
-     <p>This is a little more adavanced Java than Fortune Teller. This impliments methods, loops, and object orientated concepts.</p>
-
-    </article>
-
-    <article id="fortune-teller">
-      <h5>Fortune Teller</h5>
-      <p>This project is a fun interactive game where the user inputs information and the application will predict their future.</p>
-
-      <p>This is a basic Java program using variables, strings, conditionals and operators.</p>
-
-    </article>
-<p>
-    <a href='#top'>Back to Top</a>
-<p/>
-
-  </section>
-
-</div>
 </body>
 
-<footer>
-	<p></p>
-	Created by Todd Atkins 2017
-</footer>
+</html>
